@@ -1,11 +1,12 @@
-const Product = require('./Products.js');
+const ProductManager = require('./Products.js');
 
-const model = new Product();
+const manager = new ProductManager();
 
-model.addProduct({
-    name: 'Teclado',
+manager.addProduct({
+    title: 'Teclado',
     description: 'Teclado Mecánico',
     price: 25000,
     stock: 25
-
 });
+
+console.log(manager.getProducts());
