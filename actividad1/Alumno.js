@@ -1,5 +1,5 @@
 class Alumno {
-    // Atributos
+    // Atributoss
     nombre = "";
     apellido = "";
     edad;
